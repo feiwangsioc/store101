@@ -224,7 +224,7 @@ DEPENDENCIES
   mini_magick
   pg
   popper_js (~> 1.11, >= 1.11.1)
-  puma (~> 3.0)
+  puma (~> 3.6)
   rails (~> 5.0.0)
   sass-rails (~> 5.0)
   simple_form
