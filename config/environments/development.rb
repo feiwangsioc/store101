@@ -52,7 +52,7 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
-  # config.action_mailer.default_url_options = { host: 'https://c7e721cfc9734e4c92244ca11383539c.vfs.cloud9.us-east-2.amazonaws.com/' }
+   config.action_mailer.default_url_options = { host: 'https://c7e721cfc9734e4c92244ca11383539c.vfs.cloud9.us-east-2.amazonaws.com/' }
   # config.action_mailer.delivery_method = :letter_opener
   config.action_mailer.perform_deliveries = true
   
@@ -63,8 +63,8 @@ Rails.application.configure do
      domain: "heroku.com",
      authentication: "login",
      enable_starttls_auto: true,
-     user_name: ENV["SEND_CLOUD_USER_NAME"],
-     password: ENV["SEND_CLOUD_USER_KEY"]
+     user_name: ENV["feiwangsioc_test_ponAlQ"],
+     password: ENV["vfj08bSaOHucPgKs"]
      }
 
 end
