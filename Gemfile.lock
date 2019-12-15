@@ -127,7 +127,7 @@ GEM
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
-    rails (5.0.0)
+    rails (5.0.7.2)
       actioncable (= 5.0.0)
       actionmailer (= 5.0.0)
       actionpack (= 5.0.0)
@@ -225,7 +225,7 @@ DEPENDENCIES
   pg (= 0.20.0)
   popper_js (~> 1.11, >= 1.11.1)
   puma (~> 3.0)
-  rails (~> 5.0.0)
+  rails (~> 5.0.7.2)
   sass-rails (~> 5.0)
   simple_form
   spring
