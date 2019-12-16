@@ -39,6 +39,7 @@ gem 'mini_magick'
 gem 'aasm'
 gem 'figaro'
 
+
 gem "letter_opener", :group => :development
 
 
@@ -64,6 +65,7 @@ end
 
 group :production do 
   gem 'pg', '0.20.0'
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
