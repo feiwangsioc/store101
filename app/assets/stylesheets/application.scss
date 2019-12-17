@@ -17,3 +17,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+
+.jumbotron {
+  
+  background-image:url("https://chemicalstore.s3.us-east-2.amazonaws.com/lab-217043.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 700px;
+  margin-top: -20px;//和顶部拉开距离
+}
