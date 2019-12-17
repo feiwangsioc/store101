@@ -33,7 +33,7 @@ gem 'will_paginate'
 gem 'popper_js', '~> 1.11', '>= 1.11.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
 gem 'font-awesome-rails'
-gem 'carrierwave'
+gem 'carrierwave', '~> 1.0'
 
 gem 'mini_magick'
 gem 'aasm'
