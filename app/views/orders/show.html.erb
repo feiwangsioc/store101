@@ -72,7 +72,7 @@
       <%= link_to("Pay with PayPal", pay_with_wechat_order_path(@order.token), :method => :post, :class => "btn btn-danger") %>
     </div>
      <% else %>
-       <p class="text-center">此订单已完成付款</p>
+       <h4 class="text-center" style="color: red">The Order was done</h4>
      <% end %>
 
   </div>

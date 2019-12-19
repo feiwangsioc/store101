@@ -6,14 +6,19 @@
       <%= image_tag("http://placehold.it/400x400&text=No Pic", class: "thumbnail") %>
     <% end %>
   </div>
-  <div class="col-md-6">
-    <h2> <%= @product.title %> </h2>
-    <div style="height:100px;">
+  <div class="col-md-5 panel panel-primary">
+    <div class="panel-heading text-center"><h2> <%= @product.title %> </h2>
+    </div>
+    
+    <div class="panel-body" style="height:200px;">
       <p>
         <%= @product.description %>
       </p>
     </div>
-    <div> Quantity : <%= @product.quantity %> </div>
+    
+    <div class="product-quantity"> Quantity : 
+    <i><%= @product.quantity %> </i>
+    </div>
     <div class="product-price"> $ <%= @product.price %> </div>
     <div class="pull-right">
       <% if @product.quantity > 0 %>
