@@ -9,7 +9,7 @@
   <div class="col-md-5 panel panel-primary">
     <div class="panel-heading text-center" id="ptitle"><h2> <%= @product.title %> </h2>
     </div>
-    <div id="panel">High quantity is guarantee</div>
+    <div id="ppanel">High quantity is guarantee</div>
     
     <div class="panel-body" style="height:200px;">
       <p>
@@ -35,20 +35,20 @@
 <script> 
 $(document).ready(function(){
   $("#ptitle").mouseenter(function(){
-    $("#panel").slideToggle("slow");
+    $("#ppanel").slideToggle("slow");
   });
 });
 </script>
 <style> 
-#panel, #flip {
+#ppanel {
   padding: 5px;
   text-align: center;
   background-color: #e5eecc;
   border: solid 1px #c3c3c3;
 }
 
-#panel {
-  padding: 50px;
+#ppanel {
+  padding: 5px;
   display: none;
   color:red;
 }
