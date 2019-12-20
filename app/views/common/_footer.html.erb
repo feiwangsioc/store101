@@ -1,6 +1,32 @@
 <footer class="container" style="margin-top: 100px;">
-    <p class="text-center">Copyright ©2017 ChemicalStore
-        <br>Design by Fei Wang
+    <h5 class="text-center" id="flip">Copyright ©2017 ChemicalStore</h5>
+    <div class="text-center" id="panel">You can contact me at feiwangsioc@gmail.com</div>
+        
+     <p class="text-center" > <a  href="https://www.linkedin.com/in/finn-wang-870b67185/" target=_new> Design by Fei Wang</a>
         
     </p>
 </footer>
+
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+
+
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 10px;
+  display: none;
+}
+</style>
