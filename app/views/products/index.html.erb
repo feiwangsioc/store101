@@ -16,11 +16,13 @@
 </div>
 <br><br>
 <div class="col-xs-6 col-md-3">
-  <button>More Chemicals are coming</button>
+  <button type="button" class="btn btn-info">More Chemicals are coming</button>
 
   <br>
 
-<div id="grow" style="background:#98bf21;height:100px;width:190px;position:absolute;" >We are growing.</div>
+  <div id="grow" class="text-center" style="background:#98bf21;height:100px;width:200px;position:absolute;" > We are growing...
+  </div>
+
  </div>
 
 </div>
@@ -29,10 +31,10 @@
 $(document).ready(function(){
   $("button").click(function(){
     var div = $("#grow");  
-    div.animate({height: '300px', opacity: '0.4'}, "slow");
-    div.animate({width: '300px', opacity: '0.8'}, "slow");
+    div.animate({height: '400px', opacity: '0.4'}, "slow");
+    div.animate({width: '400px', opacity: '0.8'}, "slow");
     div.animate({height: '100px', opacity: '0.4'}, "slow");
-    div.animate({width: '190px', opacity: '0.8'}, "slow");
+    div.animate({width: '200px', opacity: '0.8'}, "slow");
     div.animate({fontSize: '1.5em'}, "slow");
   });
 });

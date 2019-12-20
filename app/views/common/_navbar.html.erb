@@ -7,7 +7,7 @@
        <!--</div>-->
        
        <div class="navbar-header">
-            <a class="navbar-brand" href="/">ChemicalStore </a>
+            <a class="navbar-brand" href="/" id="well">ChemicalStore </a>
         </div>
         
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,3 +54,17 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
+
+<script>
+$(document).ready(function(){
+  $("#well").on({
+    mouseenter: function(){
+      $(this).css("background-color", "lightblue");
+    },  
+    mouseleave: function(){
+      $(this).css("background-color", "lightgray");
+    }
+  
+  });
+});
+</script>
